@@ -11,9 +11,12 @@ public class HelloWorld {
         int firstValue=  s.nextInt();
         System.out.println("enter 2nd value");
         int secondValue=  s.nextInt();
+        System.out.println("Enter 3rd value");
+        int thirdValue = s.nextInt();
 
-        int sum = firstValue+secondValue;
+        int sum = firstValue+secondValue+thirdValue;
         System.out.println("sum of values"+ sum);
+
 
     }
 
